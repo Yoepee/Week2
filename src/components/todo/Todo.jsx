@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import {useHistory} from "react-router-dom"
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import {removeTodo, chagneTodo} from "../../redux/modules/Todo";
 
 
